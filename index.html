@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleSheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/ec0ba87a27.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>shopping card</title>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- < class="navbar-toggler-icon"></> -->
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="pannier">
+            <i class="fas fa-shopping-cart"><span id="tot">0</span>$</i>
+        </div>
+      </nav>
+    <section>
+        <h1>Bienvenu ! </h1>
+        <div class="row row-cols-1 row-cols-md-2 g-4" >
+            <div class="col"style=width:400px>
+              <div class="card">
+                <i class="fas fa-times"></i>
+                <img src="/res/p1.jpg" class="card-img-top" alt="..." style=width:300px;height:438px >
+                <div class="card-body" >
+                  <h5 class="card-title">Produit 1</h5>
+                  <p class="card-text">prix $<span class="price">10</span></p>
+                  <div class="quantit">
+                    <button style="min-width: 2.5rem" class="btn btn-decrement btn-outline-secondary btn-minus" type="button"><strong>−</strong></button>
+                    <p class="qte">0</p>
+                    <button style="min-width: 2.5rem" class="btn btn-increment btn-outline-secondary btn-plus" type="button"><strong>+</strong></button>
+                </div> 
+                <i class="fas fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col"style=width:400px;hight:438px>
+              <div class="card">
+                <i class="fas fa-times"></i>
+                <img src="res/4.jpg" class="card-img-top" alt="..."style=width:300px;height:438px>
+                <div class="card-body">
+                  <h5 class="card-title">Produit 2</h5>
+                  <p class="card-text">prix$<span class="price">10</span></p>
+                  <div class="quantit">
+                    <button style="min-width: 2.5rem" class="btn btn-decrement btn-outline-secondary btn-minus"  type="button"><strong>−</strong></button>
+                    <p class="qte">0</p>
+                    <button style="min-width: 2.5rem" class="btn btn-increment btn-outline-secondary btn-plus" type="button"><strong>+</strong></button>
+                </div> 
+                <i class="fas fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col"style=width:400px>
+              <div class="card">
+                <i class="fas fa-times"></i>
+                <img src="/res/2.jpg" class="card-img-top" alt="..."style=width:300px;height:438px;margin-bot:5px>
+                <div class="card-body">
+                  <h5 class="card-title">Produit 3</h5>
+                  <p class="card-text">prix$<span class="price">12</span></p>
+                  <div class="quantit">
+                    <button style="min-width: 2.5rem" class="btn btn-decrement btn-outline-secondary btn-minus" type="button"><strong>−</strong></button>
+                    <p class="qte">0</p>
+                    <button style="min-width: 2.5rem" class="btn btn-increment btn-outline-secondary btn-plus" type="button"><strong>+</strong></button>
+                </div> 
+                <i class="fas fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col"style=width:400px>
+              <div class="card">
+                <i class="fas fa-times"></i>
+                <img src="res/3.jpg" class="card-img-top" alt="..."style=width:300px;height:438px>
+                <div class="card-body">
+                  <h5 class="card-title">Produit 4</h5>
+                  <p class="card-text">prix $<span class="price">14</span></p>
+                  <div class="quantit">
+                      <button style="min-width: 2.5rem" class="btn btn-decrement btn-outline-secondary btn-minus" type="button"><strong>−</strong></button>
+                      <p class="qte">0</p>
+                      <button style="min-width: 2.5rem" class="btn btn-increment btn-outline-secondary btn-plus" type="button"><strong>+</strong></button>
+                  </div>
+                  <i class="fas fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>    
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

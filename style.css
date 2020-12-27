@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("res/back.jpg");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.pannier{
+    padding-right: 10px;
+    margin-right: 20px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    height: 720px;
+}
+.quantit{
+    display: flex;
+}
+h1{
+    padding: 50px;
+    color:white;
+    font-size: 150px;
+
+}
